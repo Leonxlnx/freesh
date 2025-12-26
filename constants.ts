@@ -3,68 +3,68 @@ import { Ingredient, Metric, Testimonial } from './types';
 export const INGREDIENTS: Ingredient[] = [
   {
     name: "L-Theanine",
-    scientificName: "N-ethyl-L-glutamine",
+    scientificName: "Extracted from Green Tea",
     dosage: "200mg",
-    function: "Alpha Wave Modulation"
+    function: "Provides a calm, steady sense of alertness without the usual caffeine edge."
   },
   {
     name: "Lion's Mane",
-    scientificName: "Hericium erinaceus",
+    scientificName: "Natural Mushroom Extract",
     dosage: "500mg",
-    function: "Neurogenesis Support"
+    function: "Support for mental clarity and long-term brain health."
   },
   {
     name: "Natural Caffeine",
-    scientificName: "1,3,7-Trimethylxanthine",
+    scientificName: "Sourced from Green Coffee",
     dosage: "80mg",
-    function: "Adenosine Antagonism"
+    function: "A gentle energy boost that works in harmony with your natural rhythm."
   },
   {
-    name: "Rhodiola",
-    scientificName: "Rhodiola rosea",
+    name: "Rhodiola Rosea",
+    scientificName: "Arctic Root Herb",
     dosage: "150mg",
-    function: "Cortisol Regulation"
+    function: "Helps the body manage daily stress and maintains mental stamina."
   }
 ];
 
 export const METRICS: Metric[] = [
   {
-    label: "Cognitive Latency",
-    value: -42,
+    label: "Reaction Time",
+    value: 40,
     unit: "%",
-    description: "Reduction in reaction time"
+    description: "Average improvement in focus"
   },
   {
-    label: "Focus Duration",
-    value: 6.5,
+    label: "Clean Energy",
+    value: 6,
     unit: "HRS",
-    description: "Sustained alpha-state flow"
+    description: "Sustained boost per serving"
   },
   {
-    label: "Crash Index",
+    label: "Sugar Content",
     value: 0,
-    unit: "NIL",
-    description: "Post-peak glycemic impact"
+    unit: "G",
+    description: "Pure energy, zero fillers"
   }
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    quote: "It doesn't feel like caffeine. It feels like waking up for the second time today.",
+    quote: "It's the first energy drink that actually makes me feel balanced, not jittery.",
     author: "Elena Vance",
-    title: "Lead Architect",
-    company: "Oculus Structural"
+    title: "Lead Designer",
+    company: "Studio North"
   },
   {
-    quote: "The distinct lack of jitters transforms my afternoon coding sprints. Essential infrastructure.",
+    quote: "Perfect for long afternoons in the studio. Clean focus that lasts until dinner.",
     author: "Marcus Chen",
-    title: "Senior Engineer",
-    company: "Vercel"
+    title: "Senior Developer",
+    company: "Modern Web"
   },
   {
-    quote: "Freesh obliterated my need for the 3 PM espresso. It is clean, precise energy.",
+    quote: "I've replaced my third coffee with Freesh. My sleep has never been better.",
     author: "Dr. Aris Thorne",
-    title: "Neurobiologist",
-    company: "Helix Labs"
+    title: "Researcher",
+    company: "Global Health"
   }
 ];
